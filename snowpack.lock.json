@@ -1,5 +1,5 @@
 {
   "imports": {
-    "canvas-confetti": "https://cdn.pika.dev/pin/canvas-confetti@v1.2.0-kzcveexqNXJywloAjiQb/canvas-confetti.js"
+    "lit-html": "https://cdn.pika.dev/pin/lit-html@v1.2.1-9MYIKzuAklEkQsSL4H7e/lit-html.js"
   }
 }

@@ -1,9 +1,19 @@
 {
   "scripts": {
+    "plugin:ts,tsx": "@snowpack/plugin-babel",
+    "lintall:ts": "tsc --noEmit",
+    "lintall:ts::watch": "$1 --watch",
+    "build:client/app": "./client/app --to ./app/",
     "mount:public": "mount public --to .",
-    "mount:web_modules": "mount web_modules",
-    "mount:src": "mount src --to _dist_"
+    "mount:client/app": "mount client/app --to ./app/"
   },
-  "installOptions": {},
-  "devOptions": {}
+  "buildOptions": {
+    "port": 3001
+  },
+  "installOptions": {
+    "dest": "client/app/web_modules"
+  },
+  "devOptions": {
+    "port": 3001
+  }
 }
