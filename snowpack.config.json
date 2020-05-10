@@ -4,7 +4,6 @@
     "lintall:ts": "tsc --noEmit",
     "lintall:ts::watch": "$1 --watch",
     "build:client/app": "./client/app --to ./app/",
-    "mount:public": "mount public --to .",
     "mount:client/app": "mount client/app --to ./app/"
   },
   "buildOptions": {
@@ -14,6 +13,7 @@
     "dest": "client/app/web_modules"
   },
   "devOptions": {
-    "port": 3001
+    "port": 3001,
+    "bundle": false
   }
 }
