@@ -3,17 +3,12 @@
     "plugin:ts,tsx": "@snowpack/plugin-babel",
     "lintall:ts": "tsc --noEmit",
     "lintall:ts::watch": "$1 --watch",
-    "build:client/app": "./client/app --to ./app/",
     "mount:client/app": "mount client/app --to ./app/"
-  },
-  "buildOptions": {
-    "port": 3001
   },
   "installOptions": {
     "dest": "client/app/web_modules"
   },
   "devOptions": {
-    "port": 3001,
     "bundle": false
   }
 }
