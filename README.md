@@ -6,7 +6,7 @@
 
 ### npm run build
 
-Just a test to handle a node based client for a different kind of server.
+I reverted this example, so that it resembles the official templates. I just added some loosely configured TypeScript, and a tiny Lit-Html app on top of it.
 
 Builds the app for "production" to the `build/` folder.
 
