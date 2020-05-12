@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "noUnusedParameters": false /* Report errors on unused parameters. */,
     "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
-    "paths": { "/src/*": ["./client/app/*"] },
+    "paths": { "/src/*": ["./src/*"], "/web_modules/*": ["./web_modules/*"] },
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
   "exclude": ["node_modules"]

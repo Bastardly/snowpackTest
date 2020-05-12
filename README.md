@@ -8,7 +8,7 @@
 
 Just a test to handle a node based client for a different kind of server.
 
-Builds the app for production to the `build/` folder.
+Builds the app for "production" to the `build/` folder.
 
 ### Checkout
 

@@ -1,5 +1,4 @@
 import { html } from "/app/web_modules/lit-html.js";
-
 export function fancyButton(store) {
   const handleClick = () => {
     const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
